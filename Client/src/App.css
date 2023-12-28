@@ -1,0 +1,179 @@
+/* NavBar */
+
+@media screen and (min-width: 990px) {
+  .navbar-nav {
+    padding-left: 10rem;
+  }
+}
+
+/* hero section  */
+
+.hero {
+  background-color: rgb(35, 59, 133);
+  color: white;
+  padding-top: 100px;
+  /* height: 100%; */
+  /* height: calc(100% - 464.8); */
+}
+.hero img {
+  height: 90vw;
+}
+.hero-heading {
+  padding: 1rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero .buttons button {
+  background-color: rgb(247, 33, 126);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Services section  */
+.services {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 4rem;
+}
+.services h2 {
+  text-align: center;
+  padding-top: 1rem;
+  color: rgb(107, 19, 129);
+}
+
+.service-images-container {
+  display: grid;
+  text-align: center;
+}
+.service-image img {
+  width: 90vw;
+}
+
+@media screen and (min-width: 600px) {
+  .service-images-container {
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+  }
+  .service-image img {
+    width: 100%;
+  }
+}
+
+/* # Book a Service   */
+.book-service {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 4rem;
+}
+.book-service h2 {
+  text-align: center;
+  padding-top: 1rem;
+  color: rgb(107, 19, 129);
+}
+.service-container {
+  padding: 1rem;
+}
+@media screen and (min-width: 600px) {
+  .service-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  .form {
+    padding-left: 1rem;
+  }
+}
+
+/* #caregivers section  */
+.caregivers {
+  text-align: center;
+  max-width: 1200px;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  margin: auto;
+  padding-top: 4rem;
+}
+.caregivers p {
+  font-size: 1.5rem;
+  color: rgb(114, 114, 114);
+}
+
+.caregivers h4 {
+  color: rgb(222, 53, 109);
+}
+
+@media screen and (min-width: 600px) {
+  .caregiver-container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* testimonials  */
+
+.card {
+  background-color: rgb(118, 57, 216);
+  color: white;
+  border-radius: 1rem;
+  box-shadow: 5px 10px 10px 2px rgb(186, 186, 186);
+}
+.round-img {
+  display: flex;
+  align-items: center;
+}
+.round-img p {
+  padding-left: 1rem;
+}
+.card-img-top {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 80px;
+  width: 60px;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+.card-text {
+  color: lightgrey;
+}
+
+/* footer  */
+
+.footer {
+  margin-top: 4rem;
+  background-color: rgb(35, 59, 132);
+  color: white;
+  padding: 1rem;
+}
+.footer > * {
+  padding-top: 1.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer > * {
+    padding-left: 1rem;
+  }
+}
